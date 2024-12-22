@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -10,11 +9,6 @@ const jetBrains_Mono = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
-
-export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "This is the portfolio website",
-};
 
 export default function RootLayout({
   children,
